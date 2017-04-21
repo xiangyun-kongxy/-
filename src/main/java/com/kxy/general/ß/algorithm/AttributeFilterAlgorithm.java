@@ -16,18 +16,10 @@ public class AttributeFilterAlgorithm implements Algorithm {
     private List<AttributeFilter> filters;
 
     public List<Resource> computer(List<Resource> resources, RuleSet ruleSet) {
-        List<Resource> result = new ArrayList<Resource>();
+        List<Resource> result = new ArrayList<>(resources);
 
-        for(Resource resource:resources) {
-            Resource iteration = resource;
-            for(AttributeFilter filter:filters) {
-                while (iteration != null) {
-                    iteration = filter.filter(iteration, ruleSet);
-                }
-            }
-            if(iteration != null) {
-                result.add(iteration);
-            }
+        for(AttributeFilter filter:filters) {
+            result = filter.filter(result, ruleSet);
         }
 
         return result;

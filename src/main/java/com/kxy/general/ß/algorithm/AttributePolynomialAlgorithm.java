@@ -24,11 +24,7 @@ public class AttributePolynomialAlgorithm implements Algorithm {
 
     public List<Resource> computer(List<Resource> resources, RuleSet ruleSet) {
         SortedMap<Double, List<Resource>> scoredResources;
-        scoredResources = new TreeMap<Double, List<Resource>>(new Comparator<Double>() {
-            public int compare(Double o1, Double o2) {
-                return o2.compareTo(o1);
-            }
-        });
+        scoredResources = new TreeMap<>(Comparator.reverseOrder());
 
         for(Resource resource:resources) {
             Double score = 0.0;
@@ -37,11 +33,7 @@ public class AttributePolynomialAlgorithm implements Algorithm {
                         (determiner.determine(resource, ruleSet) + determiner.getBaseScore());
             }
 
-            List<Resource> tmp = scoredResources.get(score);
-            if(tmp == null) {
-                tmp = new ArrayList<Resource>();
-                scoredResources.put(score, tmp);
-            }
+            List<Resource> tmp = scoredResources.computeIfAbsent(score, k -> new ArrayList<>());
             tmp.add(resource);
         }
 
@@ -56,6 +48,7 @@ public class AttributePolynomialAlgorithm implements Algorithm {
             }
         }
 
-        return result;
+        // if count < 0, remove | count | elements
+        return result.subList(0, result.size() - 1 + count);
     }
 }

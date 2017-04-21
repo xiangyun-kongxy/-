@@ -1,6 +1,5 @@
 package com.kxy.general.ß.resource;
 
-import com.kxy.general.ß.attribute.Attribute;
 import lombok.Getter;
 
 import java.io.Serializable;
@@ -15,6 +14,16 @@ public class Resource implements Serializable {
 
     @Getter
     private Map<String, Attribute> attributes = new HashMap<>();
+
+    @Getter
+    private ResourceType resourceType;
+    @Getter
+    private String resourceId;
+
+    public Resource(String resourceId, ResourceType resourceType) {
+        this.resourceId = resourceId;
+        this.resourceType = resourceType;
+    }
 
     public Attribute getAttribute(String name) {
         return attributes.get(name);

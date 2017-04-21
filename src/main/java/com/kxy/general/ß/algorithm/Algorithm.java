@@ -11,7 +11,8 @@ import java.util.List;
 public interface Algorithm {
     /**
      *
-     * @param resource
+     * @param resources
+     * @param ruleSet
      * @return
      */
     List<Resource> computer(List<Resource> resources, RuleSet ruleSet);

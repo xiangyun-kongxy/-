@@ -1,12 +1,12 @@
 package com.kxy.general.entrance.http;
 
+import lombok.Setter;
+
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.List;
 
 /**
@@ -15,16 +15,14 @@ import java.util.List;
 public class DispatcherServlet extends HttpServlet {
     private static final long serialVersionUID = 8841140279394231872L;
 
+    @Setter
+    private List<ServletPipe> pipes;
+
     @Override
-    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        List<String> param = new ArrayList<String>();
-        Enumeration<String> params = req.getParameterNames();
-        while(params.hasMoreElements()) {
-            param.add(params.nextElement());
+    public void service(ServletRequest req, ServletResponse resp)
+            throws ServletException, IOException {
+        for(ServletPipe pipe:pipes) {
+            pipe.doPipe(req, resp);
         }
-        res.getOutputStream().print("Your parameters:");
-        res.getOutputStream().print(param.toString());
-        res.getOutputStream().flush();
-        res.getOutputStream().close();
     }
 }

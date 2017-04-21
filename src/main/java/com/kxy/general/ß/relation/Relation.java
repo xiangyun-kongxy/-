@@ -1,5 +1,6 @@
 package com.kxy.general.ß.relation;
 
+import com.kxy.general.ß.value.Value;
 import com.kxy.general.ß.value.direct.Level;
 
 import java.io.Serializable;
@@ -14,12 +15,5 @@ public interface Relation extends Serializable {
      * @param values
      * @return
      */
-    Boolean match(List<Object> values);
-
-    /**
-     *
-     * @param values
-     * @return
-     */
-    Level different(List<Object> values);
+    Level compare(List<Value> values);
 }
