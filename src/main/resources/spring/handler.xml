@@ -4,15 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean id="propertyConfigure"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="locations">
+    <bean id="pipeChain" class="java.util.ArrayList">
+        <constructor-arg>
             <list>
-                <value>classpath:/conf/applicationConfigure.properties</value>
+                <ref bean="actionHandlePipe"/>
             </list>
-        </property>
+        </constructor-arg>
     </bean>
 
-    <import resource="datasource.xml"/>
-    <import resource="handler.xml"/>
+    <bean id="actionHandlePipe"
+          class="com.kxy.general.entrance.http.pipe.impl.ActionHandlePipe"/>
+
 </beans>
