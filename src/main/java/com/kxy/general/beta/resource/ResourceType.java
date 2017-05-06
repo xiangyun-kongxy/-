@@ -19,14 +19,13 @@ public class ResourceType implements Serializable {
     private String name;
 
     /**
-     * <code>Attribute</code>s (name) the resource type contains.
+     * Attributes (name) the resource type contains.
      */
     @Getter
     private List<String> attributes;
 
     /**
-     * to check if this type contains <code>Attribute</code> named
-     * <code>name</code>.
+     * to check if this type contains Attribute named name.
      * @param name attribute name
      * @return true if exists
      */
@@ -35,7 +34,7 @@ public class ResourceType implements Serializable {
     }
 
     /**
-     * add <code>Attribute</code> into the <code>ResourceType</code>.
+     * add Attribute into the ResourceType.
      * @param name attribute name
      */
     public void addAttribute(String name) {

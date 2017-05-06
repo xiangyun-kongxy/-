@@ -7,18 +7,17 @@ import java.io.Serializable;
  */
 public interface ValueConstructor extends Serializable {
     /**
-     * encode a <code>Value</code>.
-     * @param value <code>Value</code> to be encoded
+     * encode a Value.
+     * @param value Value to be encoded
      * @return the encoded string
      */
     String encode(Value value);
 
     /**
-     * decode an encoded <code>Value</code>. <code>serialized</code> should
-     * be the result of <code>ValueConstructor::encode</code>
-     * @param serialized it should be the result of
-     *                   <code>ValueConstructor::encode</code>
-     * @return the decoded <code>Value</code>
+     * decode an encoded Value. serialized should be the result of
+     * ValueConstructor::encode
+     * @param serialized it should be the result of ValueConstructor::encode
+     * @return the decoded Value
      */
     Value decode(String serialized);
 }

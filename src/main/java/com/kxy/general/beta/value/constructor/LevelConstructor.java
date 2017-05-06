@@ -11,8 +11,8 @@ public class LevelConstructor implements ValueConstructor {
     private static final long serialVersionUID = 9069854697759710346L;
 
     /**
-     * encoding type <code>Level</code>.
-     * @param value <code>Value</code> to be encoded
+     * encoding type Level.
+     * @param value Value to be encoded
      * @return the encoded string
      */
     @Override
@@ -28,10 +28,9 @@ public class LevelConstructor implements ValueConstructor {
     }
 
     /**
-     * decoding type <code>Level</code>.
-     * @param serialized it should be the result of
-     *                   <code>ValueConstructor::encode</code>
-     * @return the decoded <code>Level</code> object
+     * decoding type Level.
+     * @param serialized it should be the result of ValueConstructor::encode
+     * @return the decoded Level object
      */
     @Override
     public Value decode(String serialized) {

@@ -10,10 +10,9 @@ import java.io.Serializable;
  */
 public interface Rule extends Serializable {
     /**
-     * check if the <code>resource</code> matches the <code>Rule</code>. and
-     * how much it matches.
-     * @param resource <code>Resource</code> to be checked
-     * @return how much the <code>Resource</code> matches the <code>Rule</code>
+     * check if the resource matches the Rule. and how much it matches.
+     * @param resource Resource to be checked
+     * @return how much the Resource matches the Rule
      */
     Level match(Resource resource);
 }

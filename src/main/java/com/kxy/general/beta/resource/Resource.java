@@ -13,7 +13,7 @@ public class Resource implements Serializable {
     private static final long serialVersionUID = -3923420049158741839L;
 
     /**
-     * attributes of the <code>Resource</code>.
+     * attributes of the Resource.
      */
     @Getter
     private Map<String, Attribute> attributes = new HashMap<>();
@@ -31,8 +31,7 @@ public class Resource implements Serializable {
     private String resourceId;
 
     /**
-     * init <code>Resource</code> with id and type. attributes should be set
-     * later.
+     * init Resource with id and type. attributes should be set later.
      * @param resourceId resource id
      * @param resourceType resource type
      */
@@ -44,14 +43,14 @@ public class Resource implements Serializable {
     /**
      * get attribute by attribute name.
      * @param name attribute name
-     * @return <code>Attribute</code> if exist
+     * @return Attribute if exist
      */
     public Attribute getAttribute(String name) {
         return attributes.get(name);
     }
 
     /**
-     * add an attribute into the <code>Resource</code>.
+     * add an attribute into the Resource.
      * @param attribute attribute to be added
      */
     public void addAttribute(Attribute attribute) {

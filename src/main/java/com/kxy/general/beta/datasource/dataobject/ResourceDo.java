@@ -12,13 +12,13 @@ public class ResourceDo implements Serializable {
     private static final long serialVersionUID = -5081602032361511981L;
 
     /**
-     * id of the <code>Resource</code>.
+     * id of the Resource.
      */
     @Getter @Setter
     private String resourceId;
 
     /**
-     * type name of the <code>Resource</code>.
+     * type name of the Resource.
      */
     @Getter @Setter
     private String resourceType;

@@ -19,11 +19,10 @@ public final class ResourceDto {
     }
 
     /**
-     * convert <code>ResourceDo</code> to <code>Resource</code>.
-     * @param resourceDo <code>ResourceDo</code> to be converted
-     * @param attributeDos <code>Attribute</code> belonged to
-     *                     <code>Resource</code>
-     * @return the converted <code>Resource</code>
+     * convert ResourceDo to Resource.
+     * @param resourceDo ResourceDo to be converted
+     * @param attributeDos Attribute belonged to Resource
+     * @return the converted Resource
      */
     public static Resource toResource(ResourceDo resourceDo,
                                       List<AttributeDo> attributeDos) {
@@ -37,9 +36,9 @@ public final class ResourceDto {
     }
 
     /**
-     * convert <code>Resource</code> to <code>ResourceDo</code>.
-     * @param resource <code>Resource</code> to be converted
-     * @return converted <code>ResourceDo</code>
+     * convert Resource to ResourceDo.
+     * @param resource Resource to be converted
+     * @return converted ResourceDo
      */
     public static ResourceDo toResourceDo(Resource resource) {
         ResourceDo resourceDo = new ResourceDo();

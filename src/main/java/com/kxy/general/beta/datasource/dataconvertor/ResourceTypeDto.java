@@ -14,9 +14,9 @@ public final class ResourceTypeDto {
     }
 
     /**
-     * convert <code>ResourceTypeDo</code> to <code>ResourceType</code>.
-     * @param resourceTypeDo <code>ResourceTypeDo</code> to be converted
-     * @return converted <code>ResourceType</code>
+     * convert ResourceTypeDo to ResourceType.
+     * @param resourceTypeDo ResourceTypeDo to be converted
+     * @return converted ResourceType
      */
     public static ResourceType toResourceType(ResourceTypeDo resourceTypeDo) {
         ResourceType resourceType = new ResourceType();
@@ -26,9 +26,9 @@ public final class ResourceTypeDto {
     }
 
     /**
-     * convert <code>ResourceType</code> to <code>ResourceTypeDo</code>.
-     * @param resourceType <code>ResourceType</code> to be converted
-     * @return converted <code>ResourceTypeDo</code>
+     * convert ResourceType to ResourceTypeDo.
+     * @param resourceType ResourceType to be converted
+     * @return converted ResourceTypeDo
      */
     public static ResourceTypeDo toResourceTypeDo(ResourceType resourceType) {
         ResourceTypeDo resourceTypeDo = new ResourceTypeDo();

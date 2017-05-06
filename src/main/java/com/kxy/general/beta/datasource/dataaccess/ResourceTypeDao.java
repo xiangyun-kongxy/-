@@ -7,9 +7,9 @@ import com.kxy.general.beta.datasource.dataobject.ResourceTypeDo;
  */
 public interface ResourceTypeDao {
     /**
-     * get <code>ResourceTypeDo</code> by name.
+     * get ResourceTypeDo by name.
      * @param name type name
-     * @return loaded <code>ResourceTypeDo</code>
+     * @return loaded ResourceTypeDo
      */
     ResourceTypeDo getResourceTypeByName(String name);
 

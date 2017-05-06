@@ -11,6 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.39" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:3.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.1.1.RELEASE" level="project" />
@@ -29,20 +30,15 @@
     <orderEntry type="library" name="Maven: org.apache.ibatis:ibatis-sqlmap:2.3.4.726" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring:2.5.6" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.china.smartcube:smartcube.extension.fastjson:1.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.china.smartcube:smartcube.ant.spec:1.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.china.smartcube:smartcube.databox.spec.io:1.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba.china.smartcube:smartcube.common.base:1.2.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.9" level="project" />
-    <orderEntry type="library" name="Maven: json-lib:json-lib:2.3" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:2.5-dd-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:2.4" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.5" level="project" />
     <orderEntry type="library" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:6.9.11" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.beust:jcommander:1.48" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.ant:ant:1.7.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.ant:ant-launcher:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.6" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.12" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.6" level="project" />
   </component>
 </module>

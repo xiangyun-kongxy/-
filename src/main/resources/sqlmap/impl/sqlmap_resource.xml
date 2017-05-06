@@ -2,6 +2,39 @@
 <!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
         "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
 
-<sqlMap namespace="resource" >
+<sqlMap namespace="resource">
+    <typeAlias alias="ResourceDo"
+               type="com.kxy.general.beta.datasource.dataobject.ResourceDo"/>
+
+    <resultMap id="resourceDoResultMap" class="ResourceDo">
+        <result property="resourceId" column="resource_id"/>
+        <result property="resourceType" column="resource_type"/>
+    </resultMap>
+
+    <insert id="insert" parameterClass="ResourceDo">
+        <![CDATA[
+            insert into resource
+                (resource_id, resource_type, gmt_created, gmt_modified)
+            values
+                (#resourceId#, #resourceType#, now(), now())
+        ]]>
+        <selectKey type="post" resultClass="java.lang.Long"/>
+    </insert>
+
+    <select id="load_resource_by_id" parameterClass="java.lang.String"
+            resultMap="resourceDoResultMap">
+        <![CDATA[
+            select resource_id, resource_type
+            from resource
+            where resource_id = #resourceId#
+        ]]>
+    </select>
+
+    <select id="load_all_resources" resultMap="resourceDoResultMap">
+        <![CDATA[
+            select resource_id, resource_type
+            from resource
+        ]]>
+    </select>
 
 </sqlMap>

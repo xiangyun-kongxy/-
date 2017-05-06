@@ -11,8 +11,8 @@ public class ResourceNameConstructor implements ValueConstructor {
     private static final long serialVersionUID = 324059197236784342L;
 
     /**
-     * serialize <code>ResourceNameValue</code>.
-     * @param value <code>Value</code> to be encoded
+     * serialize ResourceNameValue.
+     * @param value Value to be encoded
      * @return serialized string("")
      */
     @Override
@@ -21,10 +21,9 @@ public class ResourceNameConstructor implements ValueConstructor {
     }
 
     /**
-     * deserialize string into <code>ResourceNameValue</code>.
-     * @param serialized it should be the result of
-     *                   <code>ValueConstructor::encode</code>
-     * @return deserialized <code>ResourceNameValue</code>
+     * deserialize string into ResourceNameValue.
+     * @param serialized it should be the result of ValueConstructor::encode
+     * @return deserialized ResourceNameValue
      */
     @Override
     public Value decode(String serialized) {

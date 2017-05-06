@@ -1,15 +1,21 @@
 package com.kxy.general.util;
 
+import com.kxy.general.entrance.http.handler.SimpleActionResponse;
 import lombok.Getter;
 import lombok.Setter;
 import org.testng.annotations.Test;
+
+import java.io.Serializable;
 
 /**
  * Created by xiangyunkong on 27/04/2017.
  */
 public class JsonUtilTest {
-    public static class TestSubClass {
-        public static class TestSubClass2 {
+    public static class TestSubClass implements Serializable {
+        private static final long serialVersionUID = -7725004886260948594L;
+
+        public static class TestSubClass2 implements Serializable {
+            private static final long serialVersionUID = 5111905092643042044L;
             @Getter @Setter
             private String description;
         }
@@ -28,7 +34,9 @@ public class JsonUtilTest {
         testSubClass.setName("Lily");
         testSubClass.setDesc(new TestSubClass.TestSubClass2());
         testSubClass.getDesc().setDescription("she is beautiful!");
-        String json = JsonUtil.objectToJson(testSubClass);
+        SimpleActionResponse rsp = new SimpleActionResponse("ok", 200);
+        rsp.setData(testSubClass);
+        String json = JsonUtil.objectToJson(rsp);
         System.out.println(json);
     }
 

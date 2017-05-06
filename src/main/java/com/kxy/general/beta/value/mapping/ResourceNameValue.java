@@ -21,8 +21,8 @@ public class ResourceNameValue extends AbstractValue {
     private static final long serialVersionUID = -7104430825460222514L;
 
     /**
-     * get the <code>ValueType</code> of <code>ResourceNameValue</code>.
-     * @return <code>ValueType.RESOURCE_NAME</code>
+     * get the ValueType of ResourceNameValue.
+     * @return ValueType.RESOURCE_NAME
      */
     @Override
     public ValueType getValueType() {
@@ -30,11 +30,10 @@ public class ResourceNameValue extends AbstractValue {
     }
 
     /**
-     * get the real value: <code>Resource</code> type name.
+     * get the real value: Resource type name.
      * @param object for mapping value, it is the original value
-     * @return type name of the <code>Resource</code>
-     * @throws ParameterTypeMissMatch <code>object</code> is not an instance of
-     *          <code>Resource</code>
+     * @return type name of the Resource
+     * @throws ParameterTypeMissMatch object is not an instance of Resource
      */
     @Override
     public Value get(Object object) throws ParameterTypeMissMatch {
@@ -50,15 +49,14 @@ public class ResourceNameValue extends AbstractValue {
     }
 
     /**
-     * relation <code>Equal</code> is supported by
-     * <code>ResourceNameValue</code>. two <code>values</code> both with type of
-     * <code>ResourceNameValue</code> are <code>Equal</code>
+     * relation Equal is supported by ResourceNameValue. two values both with
+     * type of ResourceNameValue are Equal
      * @param relation the relation to compare
      * @param values the values to compare
      * @return if relation come into existence
-     * @throws NoSuchOperate <code>relation</code> is not supported
-     * @throws ParameterCountError illegal count <code>values</code>
-     * @throws ParameterTypeMissMatch illegal type <code>values</code>
+     * @throws NoSuchOperate relation is not supported
+     * @throws ParameterCountError illegal count values
+     * @throws ParameterTypeMissMatch illegal type values
      */
     @Override
     public Level operate(Relation relation, List<Value> values)

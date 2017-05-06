@@ -12,7 +12,7 @@ public class StringConstructor implements ValueConstructor {
 
     /**
      * @see ValueConstructor#encode(Value)
-     * @param value <code>Value</code> should be <code>StringValue</code>
+     * @param value Value should be StringValue
      */
     @Override
     public String encode(Value value) {

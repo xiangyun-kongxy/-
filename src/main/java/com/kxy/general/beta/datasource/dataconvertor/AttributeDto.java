@@ -16,7 +16,7 @@ public final class AttributeDto {
     }
 
     /**
-     * convert <code>AttributeDo</code> to <code>Attribute</code>.
+     * convert AttributeDo to Attribute.
      * @param attributeDo object to be convert
      * @return the converted object
      */
@@ -34,7 +34,7 @@ public final class AttributeDto {
     }
 
     /**
-     * convert an <code>Attribute</code> to an <code>AttributeDo</code>.
+     * convert an Attribute to an AttributeDo.
      * @param attribute attribute to convert
      * @return the converted attribute
      */

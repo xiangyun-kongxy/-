@@ -1,7 +1,7 @@
 package com.kxy.general.beta.datasource.dataaccess;
 
 import com.kxy.general.beta.datasource.DataSource;
-import com.kxy.general.beta.resource.Resource;
+import com.kxy.general.beta.datasource.dataobject.ResourceDo;
 
 import java.util.List;
 
@@ -12,20 +12,20 @@ public interface ResourceDao extends DataSource {
     /**
      * load resource by resource id.
      * @param id resource id
-     * @return <code>Resource</code> object
+     * @return ResourceDo object
      */
-    Resource loadResourceById(String id);
+    ResourceDo loadResourceById(String id);
 
     /**
-     * load all resources whose type is <code>type</code>.
+     * load all resources whose type is type.
      * @param type resource type
-     * @return <code>Resource</code>s loaded
+     * @return ResourceDos loaded
      */
-    List<Resource> loadResourceByType(String type);
+    List<ResourceDo> loadResourcesByType(String type);
 
     /**
      * load all resources.
-     * @return <code>Resource</code>s loaded
+     * @return ResourceDos loaded
      */
-    List<Resource> loadAllResource();
+    List<ResourceDo> loadAllResources();
 }

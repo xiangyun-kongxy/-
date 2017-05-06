@@ -1,7 +1,7 @@
 package com.kxy.general.beta.datasource.impl.ibatis;
 
 import com.kxy.general.beta.datasource.dataaccess.ResourceDao;
-import com.kxy.general.beta.resource.Resource;
+import com.kxy.general.beta.datasource.dataobject.ResourceDo;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 
 import java.util.List;
@@ -20,35 +20,40 @@ public class ResourceDaoIbatis extends SqlMapClientDaoSupport
      * sql of this function.
      */
     private static  final String ST_LOAD_RESOURCE_BY_ID = NAMESPACE
-                                    + "load_resource_by_id";
+            + "load_resource_by_id";
+    /**
+     * sql name in sqlmap.
+     */
+    private static final String ST_LOAD_ALL_RESOURCES = NAMESPACE
+            + "load_all_resources";
 
     /**
-     * load <code>Resource</code> by resource id.
+     * load Resource by resource id.
      * @param id resource id
-     * @return loaded <code>Resource</code>
+     * @return loaded Resource
      */
     @Override
-    public Resource loadResourceById(String id) {
-        return (Resource) getSqlMapClientTemplate().queryForObject(
+    public ResourceDo loadResourceById(String id) {
+        return (ResourceDo) getSqlMapClientTemplate().queryForObject(
                 ST_LOAD_RESOURCE_BY_ID, id);
     }
 
     /**
-     * load <code>Resource</code>s by resource type.
+     * load Resources by resource type.
      * @param type resource type
-     * @return loaded <code>Resource</code>s
+     * @return loaded Resources
      */
     @Override
-    public List<Resource> loadResourceByType(String type) {
+    public List<ResourceDo> loadResourcesByType(String type) {
         return null;
     }
 
     /**
-     * load all <code>Resource</code>s.
-     * @return loaded <code>Resource</code>s
+     * load all Resources.
+     * @return loaded Resources
      */
     @Override
-    public List<Resource> loadAllResource() {
-        return null;
+    public List<ResourceDo> loadAllResources() {
+        return getSqlMapClientTemplate().queryForList(ST_LOAD_ALL_RESOURCES);
     }
 }

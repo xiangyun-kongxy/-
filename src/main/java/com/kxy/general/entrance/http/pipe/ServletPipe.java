@@ -11,8 +11,7 @@ import java.io.Serializable;
  */
 public interface ServletPipe extends Serializable {
     /**
-     * do something on request <code>req</code>, and put the result in
-     * <code>resp</code>.
+     * do something on request req, and put the result in resp.
      * @param req the request to process
      * @param resp the response
      */

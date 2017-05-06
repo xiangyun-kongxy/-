@@ -45,8 +45,8 @@ public class DispatcherServlet extends HttpServlet {
 
     /**
      * entrance point of a request.
-     * @param req
-     * @param resp
+     * @param req servlet request
+     * @param resp servlet response
      * @throws ServletException
      * @throws IOException
      */

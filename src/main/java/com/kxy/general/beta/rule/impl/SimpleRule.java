@@ -14,10 +14,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <code>SimpleRule</code> use relationship between <code>Value</code>s to
+ * SimpleRule use relationship between Values to
  * mention the rule. for example:
- *      <code>SimpleRule(Greater.class, ResourceAddressValue("vcpu"),
- *      Level(4))</code>
+ *      SimpleRule(Greater.class, ResourceAddressValue("vcpu"),
+ *      Level(4))
  * means the resource should contain more than 4 vcpu.
  *
  * Created by xiangyunkong on 14/04/2017.
@@ -26,20 +26,19 @@ public class SimpleRule implements Rule {
     private static final long serialVersionUID = 6378203051307630516L;
 
     /**
-     * relation/operator to mention relationship between one or more
-     * <code>Value</code>s.
+     * relation/operator to mention relationship between one or more Values.
      */
     @Getter
     private Relation relation;
 
     /**
-     * <code>Value</code>s to be mentioned in the relation.
+     * Values to be mentioned in the relation.
      */
     @Getter
     private List<Value> values = new ArrayList<>();
 
     /**
-     * init <code>SimpleRule</code> by relation and values.
+     * init SimpleRule by relation and values.
      * @param relation relation of the values
      * @param values values to be operate
      */
@@ -50,7 +49,7 @@ public class SimpleRule implements Rule {
 
     /**
      * @see Rule#match(Resource)
-     * @param resource <code>Resource</code> to be checked
+     * @param resource Resource to be checked
      * @return if and how much the resource matches the relation
      */
     public Level match(Resource resource) {

@@ -13,13 +13,13 @@ public class ResourceTypeDo implements Serializable {
     private static final long serialVersionUID = 4772116381439186409L;
 
     /**
-     * type name of the <code>ResourceType</code>.
+     * type name of the ResourceType.
      */
     @Getter @Setter
     private String typename;
 
     /**
-     * <code>Attribute</code>s the <code>ResourceType</code> contains.
+     * Attributes the ResourceType contains.
      */
     @Getter @Setter
     private List<String> attributes;

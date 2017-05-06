@@ -5,7 +5,7 @@ package com.kxy.general.beta.trigger;
  */
 public interface Trigger {
     /**
-     * tell the <code>Trigger</code> that it is happening.
+     * tell the Trigger that it is happening.
      */
     void happen();
 }

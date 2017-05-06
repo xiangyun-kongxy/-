@@ -15,49 +15,45 @@ import java.util.List;
  */
 public interface Value extends Serializable {
     /**
-     * get the type of the <code>Value</code>.
-     * @return <code>ValueType</code> of the object
+     * get the type of the Value.
+     * @return ValueType of the object
      */
     ValueType getValueType();
 
     /**
-     * get the real value of <code>this</code>.
-     * 1. <code>this</code> is a mapping <code>Value</code>
+     * get the real value of this.
+     * 1. this is a mapping Value
      *      the computed value should be returned
-     * 2. <code>this</code> is not a mapping <code>Value</code>
-     *      return <code>this</code> itself
-     * @param object if <code>this</code> is a mapping <code>Value</code>,
-     *               object is the real object context, <code>this</code> is
-     *               the address of the real value
+     * 2. this is not a mapping Value
+     *      return this itself
+     * @param object if this is a mapping Value, object is the real object
+     *               context, this is the address of the real value
      * @return the real value
-     * @throws ParameterTypeMissMatch Illegal type of <code>object</code>
-     * @throws NoSuchAddress <code>object</code> doesn't have address
-     *          <code>this</code> pointed to
+     * @throws ParameterTypeMissMatch Illegal type of object
+     * @throws NoSuchAddress object doesn't have address this pointed to
      */
     Value get(Object object) throws ParameterTypeMissMatch, NoSuchAddress;
 
     /**
-     * implement the operators(relation) the <code>Value</code> supports.
-     * @param relation operation to compare(<code>Equal</code> for example)
+     * implement the operators(relation) the Value supports.
+     * @param relation operation to compare(Equal for example)
      * @param value operators to the operation. relation(this, ...value)
      * @return result of the operation
-     * @throws NoSuchOperate <code>Value</code> doesn't support
-     *          <code>relation</code>
-     * @throws ParameterCountError illegal count of <code>value</code>
-     * @throws ParameterTypeMissMatch illegal type of <code>value</code>
+     * @throws NoSuchOperate Value doesn't support relation
+     * @throws ParameterCountError illegal count of value
+     * @throws ParameterTypeMissMatch illegal type of value
      */
     Level operate(Relation relation, Value... value)
             throws NoSuchOperate, ParameterCountError, ParameterTypeMissMatch;
 
     /**
-     * implement the operators(relation) the <code>Value</code> supports.
-     * @param relation operation to compare(<code>Equal</code> for example)
+     * implement the operators(relation) the Value supports.
+     * @param relation operation to compare(Equal for example)
      * @param values operators to the operation. relation(this, values)
      * @return result of the operation
-     * @throws NoSuchOperate <code>Value</code> doesn't support
-     *          <code>relation</code>
-     * @throws ParameterCountError illegal count of <code>value</code>
-     * @throws ParameterTypeMissMatch illegal type of <code>value</code>
+     * @throws NoSuchOperate Value doesn't support relation
+     * @throws ParameterCountError illegal count of value
+     * @throws ParameterTypeMissMatch illegal type of value
      */
     Level operate(Relation relation, List<Value> values)
             throws NoSuchOperate, ParameterCountError, ParameterTypeMissMatch;

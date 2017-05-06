@@ -11,11 +11,10 @@ import java.util.List;
 public interface Schedule {
 
     /**
-     * schedule the <code>Resource</code>es by <code>RuleSet</code>.
-     * @param resources <code>Resource</code>s to be scheduled
-     * @param ruleSet <code>RuleSet</code> for defining which
-     *                <code>Resource</code> can be chosen
-     * @return the chosen <code>Resource</code>s
+     * schedule the Resources by RuleSet.
+     * @param resources Resources to be scheduled
+     * @param ruleSet RuleSet for defining which Resource can be chosen
+     * @return the chosen Resources
      */
     List<Resource> schedule(List<Resource> resources, RuleSet ruleSet);
 }

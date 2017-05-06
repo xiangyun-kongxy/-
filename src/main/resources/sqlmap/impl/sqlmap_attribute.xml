@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+
+<sqlMap namespace="attribute">
+
+    <typeAlias alias="AttributeDo"
+               type="com.kxy.general.beta.datasource.dataobject.AttributeDo"/>
+
+    <resultMap id="resultMapAttributeDo" class="AttributeDo">
+        <result property="name" column="name"/>
+        <result property="value" column="value"/>
+        <result property="resourceId" column="resource_id"/>
+    </resultMap>
+
+    <insert id="insert" parameterClass="AttributeDo">
+        <![CDATA[
+            insert into attribute
+                (name, value, resource_id, gmt_created, gmt_modified)
+            values
+                (#name#, #value#, #resourceId#, now(), now())
+        ]]>
+    </insert>
+
+    <select id="load_all_attributes" resultMap="resultMapAttributeDo">
+        <![CDATA[
+            select name, value, resource_id
+            from attribute
+        ]]>
+    </select>
+
+</sqlMap>

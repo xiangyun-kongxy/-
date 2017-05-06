@@ -10,9 +10,8 @@ import java.util.List;
  */
 public interface Algorithm {
     /**
-     * compute the given <code>resources</code> using the given
-     * <code>ruleSet</code>. and return the resources who matches
-     * <code>ruleSet</code>
+     * compute the given resources using the given ruleSet. and return the
+     * resources who matches ruleSet.
      * @param resources candidates to compute
      * @param ruleSet the rules to selectors
      * @return the matched resources

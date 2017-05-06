@@ -15,7 +15,7 @@ public final class AttributeTypeDto {
     }
 
     /**
-     * convert <code>AttributeTypeDo</code> to <code>AttributeType</code>.
+     * convert AttributeTypeDo to AttributeType.
      * @param attributeTypeDo attribute type to be convert
      * @return converted attribute type
      */
@@ -26,7 +26,7 @@ public final class AttributeTypeDto {
     }
 
     /**
-     * convert <code>AttributeType</code> to <code>AttributeTypeDo</code>.
+     * convert AttributeType to AttributeTypeDo.
      * @param attributeType attribute type to be convert
      * @return converted attribute type
      */

@@ -26,7 +26,7 @@ public class StringValue extends AbstractValue {
     private String value;
 
     /**
-     * init <code>StringValue</code> by a string.
+     * init StringValue by a string.
      * @param value actual string
      */
     public StringValue(String value) {

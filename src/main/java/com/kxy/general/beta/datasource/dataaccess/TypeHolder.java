@@ -19,8 +19,8 @@ public class TypeHolder implements InitializingBean {
     private static Map<String, Object> types = new HashMap<>();
 
     /**
-     * the status of the <code>TypeHolder</code>. the class' instance will
-     * provide service only when <code>STATUS</code> is "loaded"
+     * the status of the TypeHolder. the class' instance will provide service
+     * only when STATUS is "loaded"
      */
     private static String status = "loading";
 
@@ -44,8 +44,7 @@ public class TypeHolder implements InitializingBean {
     }
 
     /**
-     * get type by type name <code>name</code> and type
-     * <code>javaPresent</code>.
+     * get type by type name name and type javaPresent.
      * @param name type name
      * @param javaPresent java class
      * @param <T> java class of the type

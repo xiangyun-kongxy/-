@@ -9,7 +9,12 @@
     version="2.4">
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:/spring/springContext.xml</param-value>
+        <param-value>classpath:/spring/spring_context.xml</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>contextPath</param-name>
+        <param-value>/</param-value>
     </context-param>
 
     <listener>

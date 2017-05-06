@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"
+       default-autowire="byName">
+
+    <bean id="defaultScheduler"
+          class="com.kxy.general.beta.schedule.simple.ScheduleChain">
+        <property name="schedules">
+            <list>
+                <ref bean="attributeFilterSchedule"/>
+                <ref bean="attributePolynomialSchedule"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="attributeFilterSchedule"
+          class="com.kxy.general.beta.schedule.simple.SimpleSchedule">
+        <property name="algorithm" ref="attributeFilterAlgorithm"/>
+    </bean>
+    <bean id="attributePolynomialSchedule"
+          class="com.kxy.general.beta.schedule.simple.SimpleSchedule">
+        <property name="algorithm" ref="attributePolynomialAlgorithm"/>
+    </bean>
+
+    <bean id="attributeFilterAlgorithm"
+          class="com.kxy.general.beta.algorithm.AttributeFilterAlgorithm"/>
+    <bean id="attributePolynomialAlgorithm"
+          class="com.kxy.general.beta.algorithm.AttributePolynomialAlgorithm"/>
+
+</beans>

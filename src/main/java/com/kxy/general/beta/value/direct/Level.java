@@ -39,10 +39,10 @@ public class Level extends AbstractValue {
     private Long value;
 
     /**
-     * set <code>low</code> and <code>high</code>.
+     * set low and high.
      * @param low min value
      * @param high max value
-     * @throws InvalidValue not match the rule: <code>low ≤ value ≤ high</code>
+     * @throws InvalidValue not match the rule: low ≤ value ≤ high
      */
     public void setBound(Long low, Long high) throws InvalidValue {
         if (value == null || low == null || high == null || value < low
@@ -63,7 +63,7 @@ public class Level extends AbstractValue {
 
     /**
      * init by value, low and high. if low and high doesn't match rule:
-     * <code>low ≤ value ≤ high</code>, low and high are ignored
+     * low ≤ value ≤ high, low and high are ignored
      * @param value actual value of the object
      * @param low the possible min value of the object
      * @param high the possible max value of the object
@@ -104,10 +104,10 @@ public class Level extends AbstractValue {
      * define operators which Level supports.
      * @param relation the relation to compare
      * @param values the values to compare
-     * @return compute result of the operate <code>relation</code>
-     * @throws NoSuchOperate <code>Level</code> doesn't support this relation
-     * @throws ParameterCountError illegal count of <code>values</code>
-     * @throws ParameterTypeMissMatch illegal type of <code>values</code>
+     * @return compute result of the operate relation
+     * @throws NoSuchOperate Level doesn't support this relation
+     * @throws ParameterCountError illegal count of values
+     * @throws ParameterTypeMissMatch illegal type of values
      */
     @Override
     public Level operate(Relation relation, List<Value> values)

@@ -11,9 +11,9 @@ import java.util.List;
  */
 public interface Relation extends Serializable {
     /**
-     * check the relationship of values. at this case, a <code>Relation</code>
-     * is a operator, and <code>Value</code>s are operands. <code>Value</code>
-     * should implement this `operate` in it's implement if it supports
+     * check the relationship of values. at this case, a Relation is a
+     * operator, and Values are operands. Value should implement this
+     * `operate` in it's implement if it supports
      * @param values operands of the operation
      * @return result of the operation check
      */

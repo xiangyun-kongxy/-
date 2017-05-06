@@ -39,12 +39,11 @@ public class AttributePolynomialAlgorithm implements Algorithm {
     private Double minScore = DEFAULT_MIN_SCORE;
 
     /**
-     * compute resources' score using configured processor
-     * <code>determiners</code> and return resources whose score exceeds
-     * <code>minScore</code>.
+     * compute resources' score using configured processor determiners and
+     * return resources whose score exceeds minScore.
      * @param resources candidates to compute
      * @param ruleSet the rules to selectors
-     * @return resources whose score exceeds <code>minScore</code>
+     * @return resources whose score exceeds minScore
      */
     public List<Resource> computer(List<Resource> resources, RuleSet ruleSet) {
         SortedMap<Double, List<Resource>> scoredResources;

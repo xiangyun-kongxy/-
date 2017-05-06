@@ -12,17 +12,16 @@ import java.util.List;
  */
 public class ScheduleChain implements Schedule {
     /**
-     * <code>Schedule</code>s in the chain.
+     * Schedules in the chain.
      */
     @Setter
     private List<Schedule> schedules;
 
     /**
-     * schedule using the chain(<code>Schedule</code> list) one by one.
-     * @param resources <code>Resource</code>s to be scheduled
-     * @param ruleSet <code>RuleSet</code> for defining which
-     *                <code>Resource</code> can be chosen
-     * @return the scheduled <code>Resource</code>s
+     * schedule using the chain(Schedule list) one by one.
+     * @param resources Resources to be scheduled
+     * @param ruleSet RuleSet for defining which Resource can be chosen
+     * @return the scheduled Resources
      */
     public List<Resource> schedule(List<Resource> resources, RuleSet ruleSet) {
         List<Resource> result = resources;

@@ -8,10 +8,10 @@ import com.kxy.general.beta.rule.RuleSet;
  */
 public interface AttributeDeterminer {
     /**
-     * compute the score of <code>resource</code> by <code>ruleSet</code>.
+     * compute the score of resource by ruleSet.
      * @param resource the resource to compute
      * @param ruleSet the rules to compute
-     * @return the score of the <code>resource</code>
+     * @return the score of the resource
      */
     Double determine(Resource resource, RuleSet ruleSet);
 }

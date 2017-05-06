@@ -16,7 +16,7 @@ public class SimpleTrigger implements Trigger {
     private Runnable runnable;
 
     /**
-     * the threads to execute the <code>Runnable</code>.
+     * the threads to execute the Runnable.
      */
     private ExecutorService executorService;
 

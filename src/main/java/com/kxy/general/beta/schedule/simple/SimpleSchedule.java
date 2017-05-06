@@ -20,9 +20,8 @@ public class SimpleSchedule implements Schedule {
 
     /**
      * schedule resources by configured algorithm.
-     * @param resources <code>Resource</code>s to be scheduled
-     * @param ruleSet <code>RuleSet</code> for defining which
-     *                <code>Resource</code> can be chosen
+     * @param resources Resources to be scheduled
+     * @param ruleSet RuleSet for defining which Resource can be chosen
      * @return the scheduled resources;
      */
     public List<Resource> schedule(List<Resource> resources, RuleSet ruleSet) {
