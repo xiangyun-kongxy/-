@@ -45,7 +45,7 @@ public class KvVersionManager implements VersionManager {
     /**
      * increase consistent number.
      *
-     * @param namespace version namespace
+     * @param key version storing key
      */
     private void updateVersion(String key) {
         consistentKvStorage.write(key, INIT_VALUE,

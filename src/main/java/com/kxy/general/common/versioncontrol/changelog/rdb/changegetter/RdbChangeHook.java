@@ -145,12 +145,12 @@ public class RdbChangeHook {
         String changeSql = getSql(delegate, sqlName, param);
         Map<String, String> paramForQueryChange = makeParamForQueryChange(
                 changeSql);
-        if(paramForQueryChange != null
+        if (paramForQueryChange != null
                    && "insert".equals(paramForQueryChange.get("type"))) {
             List<String> changes;
             changes = (List<String>) rdbStorage.queryForList(
                     "ChangeLog.getChanges", paramForQueryChange);
-            if(changes != null && changes.size() > 0) {
+            if (changes != null && changes.size() > 0) {
                 paramForQueryChange.put("startTime", changes.get(0));
             } else {
                 paramForQueryChange.put("startTime",
@@ -169,12 +169,12 @@ public class RdbChangeHook {
      */
     @SuppressWarnings("unchecked")
     public void afterExecuteSql(Map<String, String> context) {
-        if(context != null) {
+        if (context != null) {
             ChangeLog changeLog = null;
             String namespace = getNamespaceByTable(context.get("tableName"));
             Version version = versionManager.getIncrementedVersion(namespace);
 
-            if(context.get("type").equals("insert")) {
+            if (context.get("type").equals("insert")) {
                 changeLog = new TimeChangeLog(version, context.get("startTime"),
                         System.currentTimeMillis()
                                 + changeLogExpireInterval);
@@ -182,13 +182,13 @@ public class RdbChangeHook {
                 List<String> changes;
                 changes = rdbStorage.queryForList("ChangeLog.getChanges",
                         context);
-                if(changes != null && changes.size() > 0) {
+                if (changes != null && changes.size() > 0) {
                     changeLog = new RowChangeLog(version, changes,
                             System.currentTimeMillis()
                                     + changeLogExpireInterval);
                 }
             }
-            if(changeLog != null) {
+            if (changeLog != null) {
                 recordChangeLog(namespace, changeLog);
             }
         }
@@ -201,13 +201,13 @@ public class RdbChangeHook {
      * @param changeLog change-log to be saved
      */
     private void recordChangeLog(String namespace, ChangeLog changeLog) {
-        if(changeLog.isAllChanged()) {
+        if (changeLog.isAllChanged()) {
             List<ChangeLog> changeLogs = new ArrayList<>();
             changeLogs.add(changeLog);
             changeLogStorage.write(namespace, (Serializable) changeLogs);
         } else {
             List<ChangeLog> changeLogs = changeLogStorage.query(namespace);
-            if(changeLogs == null) {
+            if (changeLogs == null) {
                 changeLogs = new ArrayList<>();
             }
             changeLogs.removeIf(history -> System.currentTimeMillis()
@@ -243,10 +243,10 @@ public class RdbChangeHook {
                 Pattern.CASE_INSENSITIVE);
 
         Matcher matcher = pattern.matcher(sql);
-        if(matcher.find()) {
+        if (matcher.find()) {
             String tableName;
             String condition;
-            if(matcher.group(POS_UPDATE_TABLE_NAME) != null) {
+            if (matcher.group(POS_UPDATE_TABLE_NAME) != null) {
                 tableName = matcher.group(POS_UPDATE_TABLE_NAME);
                 condition = matcher.group(POS_UPDATE_CONDITION);
 
@@ -257,7 +257,7 @@ public class RdbChangeHook {
                 result.put("type", "update");
 
                 return result;
-            } else if(matcher.group(POS_DELETE_TABLE_NAME) != null) {
+            } else if (matcher.group(POS_DELETE_TABLE_NAME) != null) {
                 tableName = matcher.group(POS_DELETE_TABLE_NAME);
                 condition = matcher.group(POS_DELETE_CONDITION);
 
@@ -268,7 +268,7 @@ public class RdbChangeHook {
                 result.put("type", "delete");
 
                 return result;
-            } else if(matcher.group(POS_INSERT_TABLE_NAME) != null) {
+            } else if (matcher.group(POS_INSERT_TABLE_NAME) != null) {
                 tableName = matcher.group(POS_INSERT_TABLE_NAME);
 
                 // we can not get id before sql execute, try to record change
@@ -309,8 +309,8 @@ public class RdbChangeHook {
         statement.setParameterMap(parameterMap);
         Object[] attributes = parameterMap.getParameterObjectValues(
                 statementScope, param);
-        for(Object attr : attributes) {
-            if(attr != null) {
+        for (Object attr : attributes) {
+            if (attr != null) {
                 sqlString = sqlString.replaceFirst("\\?",
                         "'" + attr.toString() + "'");
             }

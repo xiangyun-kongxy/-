@@ -227,7 +227,7 @@ public class RdbCacheManager implements InitializingBean {
         /**
          * how long to sleep(to wait next task).
          */
-        private final Long SLEEP_UNIT = 10L;
+        private final Long sleepUnit = 10L;
 
         /**
          * thread function.
@@ -267,7 +267,7 @@ public class RdbCacheManager implements InitializingBean {
                 }
 
                 try {
-                    Thread.sleep(SLEEP_UNIT);
+                    Thread.sleep(sleepUnit);
                 } catch (Exception e) {
                     // I don't know what to do now
                 }
@@ -303,7 +303,7 @@ public class RdbCacheManager implements InitializingBean {
         enableCache = kvConfigStorage.query("enableRdbCache", true);
 
         Boolean checkBeforeRead;
-        checkBeforeRead =kvConfigStorage.query(
+        checkBeforeRead = kvConfigStorage.query(
                 "checkChangeBeforeReadRdbCache", false);
 
         if (cache instanceof LocalReadonlyKvMemoryCacheForDS) {

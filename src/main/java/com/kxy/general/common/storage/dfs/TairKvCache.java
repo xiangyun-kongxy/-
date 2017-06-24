@@ -125,7 +125,10 @@ public class TairKvCache implements KvCache {
     @Override
     public <T extends Serializable> T query(String key, T miss) {
         T value = query(key);
-        return (value == null) ? miss : value;
+        if (value == null) {
+            value = miss;
+        }
+        return value;
     }
 
     /**

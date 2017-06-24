@@ -176,7 +176,10 @@ public class KvMemoryCache implements KvCache {
     @Override
     public <T extends Serializable> T query(String key, T miss) {
         T result = query(key);
-        return (result != null) ? result : miss;
+        if (result == null) {
+            result = miss;
+        }
+        return result;
     }
 
     /**

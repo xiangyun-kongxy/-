@@ -76,8 +76,8 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
             List<ChangeLog> changeLogs) {
         Map<String, T> objectMap = new HashMap<>();
 
-        if(changeLogs != null) {
-            if(isChangeAll(changeLogs)) {
+        if (changeLogs != null) {
+            if (isChangeAll(changeLogs)) {
                 List objectDOs;
 
                 Integer start = 0;
@@ -90,15 +90,15 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
                     objectDOs = rdbStorage.queryForList(queryAllSqlName, param);
 
                     objectMap.putAll(listToMap(objectDOs));
-                } while(objectDOs != null && objectDOs.size() > 0);
+                } while (objectDOs != null && objectDOs.size() > 0);
             } else {
-                for(ChangeLog changeLog : changeLogs) {
-                    if(changeLog instanceof RowChangeLog) {
+                for (ChangeLog changeLog : changeLogs) {
+                    if (changeLog instanceof RowChangeLog) {
                         List objectDOs = rdbStorage.queryForList(
                                 queryByKeyListSqlName,
                                 changeLog.getChangedObjectIds());
                         objectMap.putAll(listToMap(objectDOs));
-                    } else if(changeLog instanceof TimeChangeLog) {
+                    } else if (changeLog instanceof TimeChangeLog) {
                         List objectDOs = rdbStorage.queryForList(
                                 queryByModifyTimeSqlName,
                                 changeLog.getChangedObjectIds().get(0));
@@ -121,8 +121,8 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
      */
     private <T> Map<String, T> listToMap(List<T> objectDOs) {
         Map<String, T> result = new HashMap<>();
-        if(objectDOs != null) {
-            for(T object : objectDOs) {
+        if (objectDOs != null) {
+            for (T object : objectDOs) {
                 result.put(getFieldValue(object, keyFieldName), object);
             }
         }
@@ -136,8 +136,8 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
      * @return true if contains change all
      */
     private Boolean isChangeAll(List<ChangeLog> changeLogs) {
-        for(ChangeLog changeLog : changeLogs) {
-            if(changeLog.isAllChanged()) {
+        for (ChangeLog changeLog : changeLogs) {
+            if (changeLog.isAllChanged()) {
                 return true;
             }
         }
@@ -153,7 +153,7 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
      */
     private String getFieldValue(Object object, String fieldName) {
         Field field = ReflectionUtils.findField(object.getClass(), fieldName);
-        if(field != null) {
+        if (field != null) {
             return String.valueOf(ReflectionUtils.getField(field, object));
         }
         return "";
