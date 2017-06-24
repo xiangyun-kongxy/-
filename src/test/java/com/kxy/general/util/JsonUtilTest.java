@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import java.io.Serializable;
 
 /**
+ *
  * Created by xiangyunkong on 27/04/2017.
  */
 public class JsonUtilTest {
@@ -29,10 +30,10 @@ public class JsonUtilTest {
 
     @Test
     public void testObjectToJson() throws Exception {
-        TestSubClass testSubClass = new TestSubClass();
+        JsonUtilTest.TestSubClass testSubClass = new TestSubClass();
         testSubClass.setAge(18);
         testSubClass.setName("Lily");
-        testSubClass.setDesc(new TestSubClass.TestSubClass2());
+        testSubClass.setDesc(new JsonUtilTest.TestSubClass.TestSubClass2());
         testSubClass.getDesc().setDescription("she is beautiful!");
         SimpleActionResponse rsp = new SimpleActionResponse("ok", 200);
         rsp.setData(testSubClass);
@@ -45,8 +46,8 @@ public class JsonUtilTest {
         String json = "{\"age\":18," +
                 "\"desc\":{\"description\":\"she is beautiful!\"}," +
                 "\"name\":\"Lily\"}";
-        TestSubClass testSubClass = JsonUtil.jsonToObject(json,
-                TestSubClass.class);
+        JsonUtilTest.TestSubClass testSubClass = JsonUtil.jsonToObject(json,
+                JsonUtilTest.TestSubClass.class);
         System.out.println(testSubClass.toString());
     }
 
