@@ -4,13 +4,11 @@ import java.util.List;
 
 /**
  * version service for querying.
- *
  * Created by xiangyun.kong on 6/9/17.
  */
 public interface VersionQueryService {
     /**
      * get change logs which made by version.
-     *
      * @param namespace namespace
      * @param version version to query
      * @return change logs
@@ -19,7 +17,6 @@ public interface VersionQueryService {
 
     /**
      * get all change logs since given version.
-     *
      * @param namespace namespace
      * @param version begin version to query
      * @return all change logs
@@ -37,7 +34,6 @@ public interface VersionQueryService {
 
     /**
      * get the newest version.
-     *
      * @param namespace namespace
      * @return the newest version
      */

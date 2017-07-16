@@ -20,8 +20,7 @@ public class KvMemoryCache implements KvCache {
     /**
      * memory kv storage.
      */
-    private Map<String, Serializable> storage
-            = new HashMap<>();
+    private Map<String, Serializable> storage = new HashMap<>();
 
     /**
      * local only memory hasn't get a conflict write.

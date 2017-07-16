@@ -6,6 +6,7 @@ import com.kxy.general.beta.datasource.dataobject.ResourceDo;
 import java.util.List;
 
 /**
+ * resource data interface.
  * Created by xiangyunkong on 17/04/2017.
  */
 public interface ResourceDao extends DataSource {

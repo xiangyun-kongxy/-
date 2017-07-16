@@ -13,8 +13,8 @@
         <project.war>beta</project.war>
         <file.encoding>UTF-8</file.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.source.version>1.6</java.source.version>
-        <java.target.version>1.6</java.target.version>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
     </properties>
 
     <repositories>

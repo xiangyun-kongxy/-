@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * value type manager.
  * Created by xiangyunkong on 20/04/2017.
  */
 public enum ValueType {

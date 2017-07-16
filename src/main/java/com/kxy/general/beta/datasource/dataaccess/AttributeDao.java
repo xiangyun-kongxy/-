@@ -5,6 +5,7 @@ import com.kxy.general.beta.datasource.dataobject.AttributeDo;
 import java.util.List;
 
 /**
+ * attribute data interface.
  * Created by xiangyunkong on 03/05/2017.
  */
 public interface AttributeDao {

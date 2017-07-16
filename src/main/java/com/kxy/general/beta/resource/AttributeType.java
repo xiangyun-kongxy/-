@@ -6,6 +6,7 @@ import lombok.Getter;
 import java.io.Serializable;
 
 /**
+ * attribute info. indexed by name
  * Created by xiangyunkong on 20/04/2017.
  */
 public class AttributeType implements Serializable {

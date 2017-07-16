@@ -155,7 +155,7 @@ public class RdbChangeHook {
             } else {
                 paramForQueryChange.put("startTime",
                         DateFormatUtils.format(new Date(),
-                                "YYYY-mm-dd HH:MM:SS"));
+                                "yyy-MM-dd HH:mm:ss"));
             }
         }
         return paramForQueryChange;

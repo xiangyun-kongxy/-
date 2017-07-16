@@ -15,6 +15,7 @@ import com.kxy.general.beta.value.exception.ParameterTypeMissMatch;
 import java.util.List;
 
 /**
+ *
  * Created by xiangyunkong on 21/04/2017.
  */
 public class ResourceNameValue extends AbstractValue {
@@ -63,7 +64,7 @@ public class ResourceNameValue extends AbstractValue {
             throws NoSuchOperate, ParameterCountError, ParameterTypeMissMatch {
         if (matchOperator(relation, Equal.class)) {
             checkParameter(values, 1, ResourceNameValue.class);
-            return new Level(1L, 0L, 1L);
+            return new Level(1L);
         }
         return super.operate(relation, values);
     }

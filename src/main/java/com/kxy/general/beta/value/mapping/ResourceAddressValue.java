@@ -17,6 +17,7 @@ import lombok.Getter;
 import java.util.List;
 
 /**
+ *
  * Created by xiangyunkong on 14/04/2017.
  */
 public class ResourceAddressValue extends AbstractValue {
@@ -86,9 +87,9 @@ public class ResourceAddressValue extends AbstractValue {
 
             ResourceAddressValue another = (ResourceAddressValue) values.get(0);
             if (this.addressName.equals(another.addressName)) {
-                return new Level(1L, 0L, 1L);
+                return new Level(1L);
             } else {
-                return new Level(0L, 0L, 1L);
+                return new Level(0L);
             }
         }
 

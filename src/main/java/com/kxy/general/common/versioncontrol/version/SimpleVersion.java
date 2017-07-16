@@ -4,7 +4,6 @@ import com.kxy.general.common.versioncontrol.Version;
 
 /**
  * a version uses a number.
- *
  * Created by xiangyun.kong on 6/12/17.
  */
 public class SimpleVersion implements Version {
@@ -17,7 +16,6 @@ public class SimpleVersion implements Version {
 
     /**
      * construct with all parameters.
-     *
      * @param v version
      */
     public SimpleVersion(Long v) {

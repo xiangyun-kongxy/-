@@ -14,6 +14,7 @@ import lombok.Getter;
 import java.util.List;
 
 /**
+ *
  * Created by xiangyunkong on 20/04/2017.
  */
 public class StringValue extends AbstractValue {
@@ -54,18 +55,18 @@ public class StringValue extends AbstractValue {
 
             StringValue another = (StringValue) values.get(0);
             if (this.value.equals(another.value)) {
-                return new Level(1L, 0L, 1L);
+                return new Level(1L);
             } else {
-                return new Level(0L, 0L, 1L);
+                return new Level(0L);
             }
         } else if (matchOperator(relation, Greater.class)) {
             checkParameter(values, 1, StringValue.class);
 
             StringValue another = (StringValue) values.get(0);
             if (this.value.compareTo(another.value) > 0) {
-                return new Level(1L, 0L, 1L);
+                return new Level(1L);
             } else {
-                return new Level(0L, 0L, 1L);
+                return new Level(0L);
             }
         }
 

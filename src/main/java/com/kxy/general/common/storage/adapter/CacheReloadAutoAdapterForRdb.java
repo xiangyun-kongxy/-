@@ -26,7 +26,7 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
 
     /**
      * read data from database by {@link RdbStorage}. it should be a general
-     * DAO implement
+     * DAO implement.
      */
     @Setter
     private RdbStorage rdbStorage;
@@ -154,6 +154,7 @@ public class CacheReloadAutoAdapterForRdb implements CacheReloadAdapter {
     private String getFieldValue(Object object, String fieldName) {
         Field field = ReflectionUtils.findField(object.getClass(), fieldName);
         if (field != null) {
+            field.setAccessible(true);
             return String.valueOf(ReflectionUtils.getField(field, object));
         }
         return "";

@@ -7,6 +7,7 @@ import lombok.Setter;
 import java.io.Serializable;
 
 /**
+ * attribute of object.
  * Created by xiangyunkong on 14/04/2017.
  */
 public class Attribute implements Serializable {

@@ -2,10 +2,13 @@ package com.kxy.general.entrance.http.handler;
 
 import com.kxy.general.common.exception.BizException;
 
+import java.io.Serializable;
+
 /**
+ *
  * Created by xiangyunkong on 21/04/2017.
  */
-public interface ActionHandler {
+public interface ActionHandler extends Serializable {
     /**
      * get action corresponded request class.
      * @return class of request

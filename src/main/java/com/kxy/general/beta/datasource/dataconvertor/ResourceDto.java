@@ -9,6 +9,7 @@ import com.kxy.general.beta.resource.ResourceType;
 import java.util.List;
 
 /**
+ * converter between resource and resource data object.
  * Created by xiangyunkong on 21/04/2017.
  */
 public final class ResourceDto {

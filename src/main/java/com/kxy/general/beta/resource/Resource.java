@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * resource class.
  * Created by xiangyunkong on 14/04/2017.
  */
 public class Resource implements Serializable {

@@ -3,7 +3,6 @@ package com.kxy.general.common.versioncontrol.version;
 import com.kxy.general.common.storage.KvStorage;
 import com.kxy.general.common.versioncontrol.Version;
 import com.kxy.general.common.versioncontrol.VersionManager;
-import lombok.Setter;
 
 import java.util.Map;
 
@@ -16,7 +15,6 @@ public class KvVersionManager implements VersionManager {
     /**
      * a consistent storage which will be used for generate consistent number.
      */
-    @Setter
     private KvStorage consistentKvStorage;
 
     /**
@@ -58,4 +56,13 @@ public class KvVersionManager implements VersionManager {
 
     }
 
+    /**
+     * set field.
+     * @param consistentKvStorage storage for generate version
+     */
+    public void setConsistentKvStorage(KvStorage consistentKvStorage) {
+        synchronized (this) {
+            this.consistentKvStorage = consistentKvStorage;
+        }
+    }
 }

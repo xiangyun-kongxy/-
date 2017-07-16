@@ -2,6 +2,7 @@ package com.kxy.general.common.storage.cache.local;
 
 import com.kxy.general.common.storage.DataMissCallback;
 import com.kxy.general.common.storage.KvStorage;
+import com.kxy.general.common.storage.adapter.CacheReloadAutoAdapterForRdb;
 import com.kxy.general.common.storage.cache.CacheReloadAdapter;
 import com.kxy.general.common.storage.cache.ReadonlyKvCache;
 import com.kxy.general.common.versioncontrol.ChangeLog;
@@ -46,7 +47,7 @@ public class LocalReadonlyKvMemoryCacheForDS implements ReadonlyKvCache {
     /**
      * data adapter between database and cache.
      * there is a general adapter implemented for most cases
-     * {@code CacheReloadAutoAdapterForRdb}, you can use it for simplifying code
+     * {@link CacheReloadAutoAdapterForRdb}, you can use it for simplifying code
      */
     @Setter
     private CacheReloadAdapter storageForConsistent;
@@ -65,7 +66,7 @@ public class LocalReadonlyKvMemoryCacheForDS implements ReadonlyKvCache {
     private Boolean checkChangeBeforeReadRdbCache = false;
 
     /**
-     * namespace used by the cache. a instance of cache should have a unique
+     * namespace used by the cache. an instance of cache should have a unique
      * namespace
      */
     @Setter
@@ -74,7 +75,7 @@ public class LocalReadonlyKvMemoryCacheForDS implements ReadonlyKvCache {
 
     /**
      * the real storage used by cache.
-     * here is {@code KvMemoryCache}
+     * here is {@link KvMemoryCache}
      */
     private KvStorage storage = new KvMemoryCache();
 

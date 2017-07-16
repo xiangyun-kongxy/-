@@ -5,9 +5,11 @@ import com.kxy.general.common.storage.RdbStorage;
 import com.kxy.general.common.storage.adapter.CacheReloadAutoAdapterForRdb;
 import com.kxy.general.common.storage.bridge.ReadonlyKvCacheAgent;
 import com.kxy.general.common.storage.cache.ReadonlyKvCache;
-import com.kxy.general.common.storage.cache.local.LocalReadonlyKvMemoryCacheForDS;
+import com.kxy.general.common.storage.cache.local
+               .LocalReadonlyKvMemoryCacheForDS;
 import com.kxy.general.common.versioncontrol.VersionQueryService;
-import com.kxy.general.common.versioncontrol.changelog.rdb.changegetter.RdbChangeHook;
+import com.kxy.general.common.versioncontrol.changelog.rdb.changegetter
+               .RdbChangeHook;
 import lombok.Setter;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
@@ -281,10 +283,11 @@ public class RdbCacheManager implements InitializingBean {
     private void beginReloadProcess() {
         ExecutorService executorService;
         executorService = Executors.newFixedThreadPool(cachedTables.size());
-        for (String name : cachedTables.keySet()) {
+        for (Map.Entry<String, Map<String, String>> entry
+                : cachedTables.entrySet()) {
             ReadonlyKvCache cache;
-            cache = caches.get(name);
-            Map<String, String> config = cachedTables.get(name);
+            cache = caches.get(entry.getKey());
+            Map<String, String> config = entry.getValue();
 
             RunnableForReloadCache runnable = new RunnableForReloadCache();
             runnable.setCache(cache);

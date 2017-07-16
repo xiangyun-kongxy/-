@@ -6,7 +6,6 @@ import com.kxy.general.beta.relation.compare.Greater;
 import com.kxy.general.beta.value.AbstractValue;
 import com.kxy.general.beta.value.Value;
 import com.kxy.general.beta.value.ValueType;
-import com.kxy.general.beta.value.exception.InvalidValue;
 import com.kxy.general.beta.value.exception.NoSuchOperate;
 import com.kxy.general.beta.value.exception.ParameterCountError;
 import com.kxy.general.beta.value.exception.ParameterTypeMissMatch;
@@ -15,6 +14,7 @@ import lombok.Getter;
 import java.util.List;
 
 /**
+ *
  * Created by xiangyunkong on 14/04/2017.
  */
 public class Level extends AbstractValue {
@@ -24,13 +24,13 @@ public class Level extends AbstractValue {
      * min value.
      */
     @Getter
-    private Long low = 0L;
+    private static final Long LOW = 0L;
 
     /**
      * max value.
      */
     @Getter
-    private Long high = 0L;
+    private static final Long HIGH = 100L;
 
     /**
      * the actual value.
@@ -39,41 +39,14 @@ public class Level extends AbstractValue {
     private Long value;
 
     /**
-     * set low and high.
-     * @param low min value
-     * @param high max value
-     * @throws InvalidValue not match the rule: low ≤ value ≤ high
-     */
-    public void setBound(Long low, Long high) throws InvalidValue {
-        if (value == null || low == null || high == null || value < low
-                || value > high) {
-            throw new InvalidValue();
-        }
-        this.low = low;
-        this.high = high;
-    }
-
-    /**
      * init value. low and high are undefined
      * @param value the value of the Object
      */
     public Level(Long value) {
-        this.value = value;
-    }
-
-    /**
-     * init by value, low and high. if low and high doesn't match rule:
-     * low ≤ value ≤ high, low and high are ignored
-     * @param value actual value of the object
-     * @param low the possible min value of the object
-     * @param high the possible max value of the object
-     */
-    public Level(Long value, Long low, Long high) {
-        this(value);
-        try {
-            this.setBound(low, high);
-        } catch (InvalidValue invalidValue) {
-            invalidValue.printStackTrace();
+        if (value < LOW || value > HIGH) {
+            this.value = LOW;
+        } else {
+            this.value = value;
         }
     }
 
@@ -83,12 +56,8 @@ public class Level extends AbstractValue {
      * range(normalization).
      * @return the value(normalized) of the object
      */
-    public Double numeric() {
-        if (low == 0L && high == 0L) {
-            return value / 1.0;
-        } else {
-            return (value - low) * 1.0 / (high - low);
-        }
+    public Long numeric() {
+        return value;
     }
 
     /**
@@ -117,18 +86,18 @@ public class Level extends AbstractValue {
 
             Level another = (Level) values.get(0);
             if (this.numeric().compareTo(another.numeric()) == 0) {
-                return new Level(1L, 0L, 1L);
+                return new Level(1L);
             } else {
-                return new Level(0L, 0L, 1L);
+                return new Level(0L);
             }
         } else if (matchOperator(relation, Greater.class)) {
             checkParameter(values, 1, Level.class);
 
             Level another = (Level) values.get(0);
             if (this.numeric().compareTo(another.numeric()) > 0) {
-                return new Level(1L, 0L, 1L);
+                return new Level(1L);
             } else {
-                return new Level(0L, 0L, 1L);
+                return new Level(0L);
             }
         }
 

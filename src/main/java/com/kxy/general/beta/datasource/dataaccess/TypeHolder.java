@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * type manager.
  * Created by xiangyunkong on 21/04/2017.
  */
 public class TypeHolder implements InitializingBean {

@@ -2,7 +2,6 @@ package com.kxy.general.common.versioncontrol;
 
 /**
  * a type who can makes unique and sequence version.
- *
  * Created by xiangyun.kong on 6/13/17.
  */
 public interface VersionManager {

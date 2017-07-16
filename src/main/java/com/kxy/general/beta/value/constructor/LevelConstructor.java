@@ -5,6 +5,7 @@ import com.kxy.general.beta.value.ValueConstructor;
 import com.kxy.general.beta.value.direct.Level;
 
 /**
+ *
  * Created by xiangyunkong on 20/04/2017.
  */
 public class LevelConstructor implements ValueConstructor {
@@ -19,9 +20,7 @@ public class LevelConstructor implements ValueConstructor {
     public String encode(Value value) {
         if (value instanceof Level) {
             Level level = (Level) value;
-            return level.getValue().toString() + " "
-                    + level.getLow().toString() + " "
-                    + level.getHigh().toString();
+            return level.getValue().toString();
         } else {
             return null;
         }
@@ -34,12 +33,6 @@ public class LevelConstructor implements ValueConstructor {
      */
     @Override
     public Value decode(String serialized) {
-        String[] values = serialized.split(" ");
-        if (values.length == 0) {
-            return new Level(Long.valueOf(values[0]),
-                    Long.valueOf(values[2]), Long.valueOf(values[1]));
-        } else {
-            return null;
-        }
+        return new Level(Long.valueOf(serialized));
     }
 }

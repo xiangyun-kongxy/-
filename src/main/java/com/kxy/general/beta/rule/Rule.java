@@ -6,6 +6,8 @@ import com.kxy.general.beta.value.direct.Level;
 import java.io.Serializable;
 
 /**
+ * resource requirement rule.
+ *
  * Created by xiangyunkong on 14/04/2017.
  */
 public interface Rule extends Serializable {
