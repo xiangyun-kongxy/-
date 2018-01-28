@@ -1,44 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/FSin.java" line="12" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFitTraining.java" line="275" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf340d8-87e4-4fe8-9870-e81b43454c39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/xiangyun.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_jmockit_jmockit_1_32.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/lock/Lock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kxy/general/common/storage/adapter/CacheReloadAutoAdapterForRdbTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kxy/general/common/storage/cache/local/KvMemoryCacheTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/kongxiangyun.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/kongxiangyun.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/data/KeyValue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/FSin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFitTraining.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kxy/general/common/datamining/fitting/sin/SinFitTrainingTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta.iml" afterPath="$PROJECT_DIR$/beta.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/AttributeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/AttributeDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/ResourceDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/ResourceDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/TypeHolder.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataaccess/TypeHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataconvertor/AttributeDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataconvertor/AttributeDto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataconvertor/ResourceDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/datasource/dataconvertor/ResourceDto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/Attribute.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/Attribute.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/AttributeType.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/AttributeType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/Resource.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/resource/Resource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/rule/Rule.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/rule/Rule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/ValueType.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/ValueType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/constructor/LevelConstructor.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/constructor/LevelConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/direct/Level.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/direct/Level.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/direct/StringValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/direct/StringValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/mapping/ResourceAddressValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/mapping/ResourceAddressValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/mapping/ResourceNameValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/beta/value/mapping/ResourceNameValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/adapter/CacheReloadAutoAdapterForRdb.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/adapter/CacheReloadAutoAdapterForRdb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/local/KvMemoryCache.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/local/KvMemoryCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/local/LocalReadonlyKvMemoryCacheForDS.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/local/LocalReadonlyKvMemoryCacheForDS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/manager/RdbCacheManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/manager/RdbCacheManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/Version.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/Version.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionQueryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionQueryService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/changelog/rdb/changegetter/RdbChangeHook.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/changelog/rdb/changegetter/RdbChangeHook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/version/KvVersionManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/version/KvVersionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/version/SimpleVersion.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/version/SimpleVersion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/entrance/http/handler/ActionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/entrance/http/handler/ActionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kxy/general/util/JsonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/kxy/general/util/JsonUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +41,7 @@
       <file leaf-file-name="VersionQueryService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionQueryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="0">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -85,12 +58,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/lock/Lock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FSin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/FSin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+              <folding>
+                <element signature="method#FSin#0;class#FSin#0" expanded="true" />
+                <element signature="method#f#0;class#FSin#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinFit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="method#SinFit#0;class#SinFit#0" expanded="true" />
+                <element signature="method#apply#0;class#SinFit#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinFitTrainingTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kxy/general/common/datamining/fitting/sin/SinFitTrainingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1234">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="method#testTrain#0;class#SinFitTrainingTest#0" expanded="true" />
+                <element signature="method#train#0;class#SinFitTrainingTest#0" expanded="true" />
+                <element signature="method#run#0;class#2193:2328" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinFitTraining.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFitTraining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+              <folding>
+                <element signature="method#getFunction#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#accept#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#changeFunction#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#initChangeParameter#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#adjustChangeParameter#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#changeParameter#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#meanSquare#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#diffSum#0;class#SinFitTraining#0" expanded="true" />
+                <element signature="method#distSum#0;class#SinFitTraining#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +133,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TestNG Test Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -116,11 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/DataMissCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/KvStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/RdbStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/ReadonlyKvStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/ReadonlyRdbStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/ChangeLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/changelog/rdb/RowChangeLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/changelog/rdb/TimeChangeLog.java" />
@@ -167,6 +196,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionQueryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/lock/Lock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/data/KeyValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/FSin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kxy/general/common/datamining/fitting/sin/SinFitTrainingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFitTraining.java" />
       </list>
     </option>
   </component>
@@ -192,8 +226,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="2048" />
-    <option name="height" value="1152" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -253,20 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="beta">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -394,6 +414,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datamining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datamining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="beta" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,13 +493,26 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="beta">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="add_unversioned_files" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -415,12 +520,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kxy.general.common.datamining.fitting.sin" />
       <recent name="com.kxy.general.common.storage.cache.local" />
       <recent name="com.kxy.general.common.storage.bridge" />
       <recent name="com.kxy.general.common.storage.adapter" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kxy.general.common.datamining" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -438,7 +548,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.KvMemoryCacheTest">
+  <component name="RunManager" selected="TestNG.SinFitTrainingTest.testTrain">
     <configuration default="false" name="CacheReloadAutoAdapterForRdbTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -455,72 +565,6 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="CacheReloadAutoAdapterForRdbTest.testQueryByTimeChangeLog (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kxy.general.common.storage.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="beta" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.kxy.general.common.storage.adapter" />
-      <option name="MAIN_CLASS_NAME" value="com.kxy.general.common.storage.adapter.CacheReloadAutoAdapterForRdbTest" />
-      <option name="METHOD_NAME" value="testQueryByTimeChangeLog" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kxy.general.common.storage.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="beta" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.kxy.general.common.storage.adapter" />
-      <option name="MAIN_CLASS_NAME" value="com.kxy.general.common.storage.adapter.CacheReloadAutoAdapterForRdbTest" />
-      <option name="METHOD_NAME" value="testQueryByChangeAll" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -584,6 +628,72 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.kxy.general.common.storage.cache.local" />
       <option name="MAIN_CLASS_NAME" value="com.kxy.general.common.storage.cache.local.KvMemoryCacheTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="SinFitTrainingTest.testTrain" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kxy.general.common.datamining.fitting.sin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="beta" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.kxy.general.common.datamining.fitting.sin" />
+      <option name="MAIN_CLASS_NAME" value="com.kxy.general.common.datamining.fitting.sin.SinFitTrainingTest" />
+      <option name="METHOD_NAME" value="testTrain" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="SinFitTrainingTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kxy.general.common.datamining.fitting.sin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="beta" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.kxy.general.common.datamining.fitting.sin" />
+      <option name="MAIN_CLASS_NAME" value="com.kxy.general.common.datamining.fitting.sin.SinFitTrainingTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -821,18 +931,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByTimeChangeLog (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.KvMemoryCacheTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.KvMemoryCacheTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SinFitTrainingTest.testTrain" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SinFitTrainingTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.KvMemoryCacheTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByTimeChangeLog (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SinFitTrainingTest.testTrain" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SinFitTrainingTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.KvMemoryCacheTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -855,35 +965,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CacheReloadAutoAdapterForRdbTest - 2017.06.24 at 17h 47m 10s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 19h 55m 46s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest - 2017.06.24 at 17h 49m 28s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 19h 57m 49s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest - 2017.06.24 at 17h 52m 56s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 20h 06m 03s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest - 2017.06.24 at 17h 53m 44s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 20h 14m 52s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest_testQueryByChangeAll - 2017.06.24 at 17h 49m 49s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 20h 29m 54s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest_testQueryByChangeAll_(1) - 2017.06.24 at 17h 52m 14s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 20h 34m 24s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CacheReloadAutoAdapterForRdbTest_testQueryByChangeAll_(1) - 2017.06.24 at 17h 52m 36s.xml">
-      <configuration name="CacheReloadAutoAdapterForRdbTest.testQueryByChangeAll (1)" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 22h 53m 33s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="KvMemoryCacheTest - 2017.06.25 at 20h 56m 33s.xml">
-      <configuration name="KvMemoryCacheTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 23h 01m 12s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="KvMemoryCacheTest - 2017.06.25 at 20h 56m 44s.xml">
-      <configuration name="KvMemoryCacheTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 23h 09m 18s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="KvMemoryCacheTest - 2017.06.25 at 21h 18m 46s.xml">
-      <configuration name="KvMemoryCacheTest" configurationId="TestNG" />
+    <history-entry file="SinFitTrainingTest_testTrain - 2018.01.28 at 23h 22m 06s.xml">
+      <configuration name="SinFitTrainingTest.testTrain" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -896,12 +1006,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2048" height="1152" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28650647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27664232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -912,23 +1022,23 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29233068" sideWeight="0.3737931" order="9" side_tool="false" content_ui="tabs" x="100" y="100" width="2360" height="1240" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920635" sideWeight="0.37153286" order="9" side_tool="false" content_ui="tabs" x="100" y="100" width="2360" height="1240" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29233068" sideWeight="0.6262069" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920635" sideWeight="0.62846714" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21563745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21706349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24599881" sideWeight="0.5043573" order="10" side_tool="true" content_ui="tabs" />
     </layout>
@@ -938,51 +1048,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="ch" language="JAVA" />
+        <watch expression="ca" language="JAVA" />
+        <watch expression="cb" language="JAVA" />
+        <watch expression="cc" language="JAVA" />
+        <watch expression="cd" language="JAVA" />
+        <watch expression="da" language="JAVA" />
+        <watch expression="db" language="JAVA" />
+        <watch expression="dc" language="JAVA" />
+        <watch expression="dd" language="JAVA" />
+        <watch expression="jump" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/DataConflictCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kxy/general/common/storage/cache/local/KvMemoryCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/adapter/CacheReloadAutoAdapterForRdb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/cache/local/LocalReadonlyKvMemoryCacheForDS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/rdb/ibatishook/CachedSqlMapClientTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/storage/dfs/TairKvCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1002">
@@ -1022,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,11 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="77" column="57" lean-forward="false" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
-          <folding>
-            <element signature="method#Level#0;class#Level#0" expanded="false" />
-            <element signature="method#numeric#0;class#Level#0" expanded="false" />
-            <element signature="method#getValueType#0;class#Level#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,10 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="initializer##0;class#ValueType#0" expanded="false" />
-            <element signature="method#encode#0;class#ValueType#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,18 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="method#getKeyColumnByTable#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#getNamespaceByTable#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#getCacheByTable#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#isCacheEnabled#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#afterPropertiesSet#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#loadCaches#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#initCacheByParameter#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#checkParameters#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#run#0;class#RunnableForReloadCache#0;class#RdbCacheManager#0" expanded="false" />
-            <element signature="method#beginReloadProcess#0;class#RdbCacheManager#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,9 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="method#AttributeType#0;class#AttributeType#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,10 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="method#toResource#0;class#ResourceDto#0" expanded="false" />
-            <element signature="method#toResourceDo#0;class#ResourceDto#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,9 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="method#toAttribute#0;class#AttributeDto#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,10 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="method#afterPropertiesSet#0;class#TypeHolder#0" expanded="true" />
-            <element signature="method#getType#0;class#TypeHolder#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,7 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1991">
           <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,11 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="method#getIncrementedVersion#0;class#KvVersionManager#0" expanded="true" />
-            <element signature="method#updateVersion#0;class#KvVersionManager#0" expanded="true" />
-            <element signature="method#setConsistentKvStorage#0;class#KvVersionManager#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1353,17 +1384,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="method#SimpleVersion#0;class#SimpleVersion#0" expanded="false" />
-            <element signature="method#compareTo#0;class#SimpleVersion#0" expanded="false" />
-            <element signature="method#toString#0;class#SimpleVersion#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/versioncontrol/VersionQueryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="0">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
@@ -1380,8 +1406,71 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/lock/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/data/KeyValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="method#KeyValue#0;class#KeyValue#0" expanded="false" />
+            <element signature="method#KeyValue#1;class#KeyValue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/FSin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+          <folding>
+            <element signature="method#FSin#0;class#FSin#0" expanded="true" />
+            <element signature="method#f#0;class#FSin#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="method#SinFit#0;class#SinFit#0" expanded="true" />
+            <element signature="method#apply#0;class#SinFit#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kxy/general/common/datamining/fitting/sin/SinFitTrainingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1234">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="method#testTrain#0;class#SinFitTrainingTest#0" expanded="true" />
+            <element signature="method#train#0;class#SinFitTrainingTest#0" expanded="true" />
+            <element signature="method#run#0;class#2193:2328" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kxy/general/common/datamining/fitting/sin/SinFitTraining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding>
+            <element signature="method#getFunction#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#accept#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#changeFunction#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#initChangeParameter#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#adjustChangeParameter#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#changeParameter#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#meanSquare#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#diffSum#0;class#SinFitTraining#0" expanded="true" />
+            <element signature="method#distSum#0;class#SinFitTraining#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
